@@ -6,8 +6,19 @@ const App = () => {
 
   return (
     <main className="mx-16 my-16 space-y-8 text-center">
-      <h1 className="text-4xl">A simple counter app</h1>
-      <h2 className="italic">State managed using Zustand 🐻</h2>
+      <h1 className="text-4xl">A &#40;very&#41; simple counter app</h1>
+      <h2 className="italic">
+        State managed using&nbsp;
+        <a
+          className="underline"
+          href="https://github.com/pmndrs/zustand"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Zustand
+        </a>
+        &nbsp; 🐻
+      </h2>
 
       <hr />
 
